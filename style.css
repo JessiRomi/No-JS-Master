@@ -1,0 +1,120 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: yellow;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center; 
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+}
+
+
+.card{
+    width: 200px;
+    height: 200px;
+    background: black;
+    margin: 5px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10 {
+    transition: all ease-in-out 0.3s;
+}
+
+
+.img1:hover{
+    background: url('./images/11.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.img2:hover{
+    background: url('./images/el-color-en-el-arte-conceptual-y-su-impacto-visual.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.img3:hover{
+    background: url('./images/imagenes-colores_969524-259.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.img4:hover{
+    background: url('./images/imagenes-colores_969524-264.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.img5:hover{
+    background: url('./images/impacto-visual-blog-SYP.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.img6:hover{
+    background: url('./images/La-importancia-del-diseno-grafico-en-las-redes-sociales.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.img7:hover{
+    background: url('./images/ojos-brillaron-colores-vibrantes-hojas-otono-ia-generativa_8829-2921.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.img8:hover{
+    background: url('./images/um-close-up-de-uma-pintura-do-rosto-de-uma-mulher-gerada-por-ia-generativa-de-ia_295714-7460.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.img9:hover{
+    background: url('./images/unnamed.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+.img10:hover{
+    background: url('./images/vintage-violin-music-t-shirt-music-t-shirt-design-typography-design-guitar-t-shirt-poster-vector-graphic-mug-slogan-and-other-uses-free-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(1.1);
+}
+
+
+.footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(11, 1, 11);
+    font-size: medium;
+    text-align: center;
+    height: 10%;
+}
+
+
